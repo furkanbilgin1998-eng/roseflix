@@ -1,0 +1,7 @@
+import Link from "next/link";
+import { Instagram, Youtube } from "lucide-react";
+export function Footer(){return <footer className="border-t border-white/10 bg-[#0d0d0d]"><div className="container-main grid gap-10 py-14 md:grid-cols-[1.5fr_1fr_1fr_1fr]">
+<div><Link href="/" className="display text-4xl font-bold">Rose<span className="text-rose">flix.</span></Link><p className="mt-4 max-w-xs text-sm leading-6 text-muted">Independent film criticism and discovery for curious movie lovers.</p></div>
+{[["Explore",["Reviews","Categories","Journal"]],["Company",["About","Contact","Advertise"]]].map(([h,items])=><div key={h as string}><p className="eyebrow mb-4">{h}</p><div className="grid gap-3">{(items as string[]).map(x=><Link key={x} className="text-sm text-muted hover:text-white" href={`/${x.toLowerCase()}`}>{x}</Link>)}</div></div>)}
+<div><p className="eyebrow mb-4">Follow the story</p><div className="flex gap-3"><a aria-label="Instagram" className="border border-white/10 p-3 hover:border-rose" href="#"><Instagram size={18}/></a><a aria-label="Youtube" className="border border-white/10 p-3 hover:border-rose" href="#"><Youtube size={18}/></a></div></div>
+</div><div className="container-main flex flex-col gap-2 border-t border-white/10 py-5 text-[11px] uppercase tracking-widest text-muted sm:flex-row sm:justify-between"><p>© 2026 Roseflix</p><p>Made for people who stay through the credits.</p></div></footer>}
