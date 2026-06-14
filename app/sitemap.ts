@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
-import { articles, movies } from "@/data/content";
-export default function sitemap():MetadataRoute.Sitemap {
+import { getCmsContent } from "@/lib/cms";
+export default async function sitemap():Promise<MetadataRoute.Sitemap> {
+ const {articles,movies}=await getCmsContent();
  const root="https://roseflix.example";
  const pages=["","/reviews","/blog","/categories","/about","/contact","/search"];
  return [

@@ -1,0 +1,122 @@
+backend:
+  name: github
+  repo: furkanbilgin1998-eng/roseflix
+  branch: main
+
+local_backend: true
+publish_mode: simple
+media_folder: public/uploads
+public_folder: /uploads
+site_url: http://localhost:3001
+display_url: http://localhost:3001
+logo_url: /roseflix-mark.svg
+
+collections:
+  - name: roseflix
+    label: Roseflix Content
+    files:
+      - name: content
+        label: Website Content
+        file: data/cms-content.json
+        format: json
+        fields:
+          - label: Hero Carousel
+            name: heroSlides
+            widget: list
+            summary: "{{fields.titleEn}} / {{fields.titleTr}}"
+            fields:
+              - { label: ID, name: id, widget: string }
+              - { label: Eyebrow EN, name: eyebrowEn, widget: string }
+              - { label: Eyebrow TR, name: eyebrowTr, widget: string }
+              - { label: Title EN, name: titleEn, widget: string }
+              - { label: Title TR, name: titleTr, widget: string }
+              - { label: Accent EN, name: accentEn, widget: string }
+              - { label: Accent TR, name: accentTr, widget: string }
+              - { label: Description EN, name: descriptionEn, widget: text }
+              - { label: Description TR, name: descriptionTr, widget: text }
+              - { label: Hero Image, name: image, widget: image, hint: "Recommended: 1920×1080 px. Keep subjects inside the central 1200×700 px." }
+              - { label: Linked Movie Slug, name: movieSlug, widget: string }
+
+          - label: Movies
+            name: movies
+            widget: list
+            summary: "{{fields.title}} · {{fields.year}}"
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Year, name: year, widget: number, value_type: int }
+              - { label: Runtime, name: runtime, widget: string }
+              - label: Genres
+                name: genres
+                widget: list
+                field: { label: Genre, name: genre, widget: string }
+              - { label: Rating, name: rating, widget: number, value_type: float, min: 0, max: 10, step: 0.1 }
+              - { label: Director, name: director, widget: string }
+              - label: Cast
+                name: cast
+                widget: list
+                field: { label: Cast Member, name: member, widget: string }
+              - { label: Poster, name: poster, widget: image, hint: "Recommended: 1000×1500 px." }
+              - { label: Backdrop, name: backdrop, widget: image, hint: "Recommended: 1920×1080 px." }
+              - { label: Synopsis, name: synopsis, widget: text }
+              - { label: Verdict, name: verdict, widget: string }
+
+          - label: Reviews
+            name: reviews
+            widget: list
+            summary: "{{fields.movie.title}} · {{fields.author}}"
+            fields:
+              - label: Movie
+                name: movie
+                widget: object
+                collapsed: true
+                fields:
+                  - { label: Slug, name: slug, widget: string }
+                  - { label: Title, name: title, widget: string }
+                  - { label: Year, name: year, widget: number, value_type: int }
+                  - { label: Runtime, name: runtime, widget: string }
+                  - label: Genres
+                    name: genres
+                    widget: list
+                    field: { label: Genre, name: genre, widget: string }
+                  - { label: Rating, name: rating, widget: number, value_type: float }
+                  - { label: Director, name: director, widget: string }
+                  - label: Cast
+                    name: cast
+                    widget: list
+                    field: { label: Cast Member, name: member, widget: string }
+                  - { label: Poster, name: poster, widget: image }
+                  - { label: Backdrop, name: backdrop, widget: image }
+                  - { label: Synopsis, name: synopsis, widget: text }
+                  - { label: Verdict, name: verdict, widget: string }
+              - { label: Author, name: author, widget: string }
+              - { label: Date, name: date, widget: string }
+              - { label: Excerpt, name: excerpt, widget: text }
+              - { label: Full Review, name: body, widget: text }
+              - label: Pros
+                name: pros
+                widget: list
+                field: { label: Pro, name: pro, widget: string }
+              - label: Cons
+                name: cons
+                widget: list
+                field: { label: Con, name: con, widget: string }
+
+          - label: Blog Articles
+            name: articles
+            widget: list
+            summary: "{{fields.title}}"
+            fields:
+              - { label: Slug, name: slug, widget: string }
+              - { label: Title, name: title, widget: string }
+              - { label: Category, name: category, widget: string }
+              - { label: Excerpt, name: excerpt, widget: text }
+              - { label: Cover Image, name: image, widget: image, hint: "Recommended: 1600×900 px." }
+              - { label: Reading Time, name: read, widget: string }
+              - { label: Article Body EN, name: bodyEn, widget: markdown, required: false }
+              - { label: Article Body TR, name: bodyTr, widget: markdown, required: false }
+
+          - label: Categories
+            name: categories
+            widget: list
+            field: { label: Category, name: category, widget: string }

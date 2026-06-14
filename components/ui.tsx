@@ -2,11 +2,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowUpRight, Star } from "lucide-react";
 import type { Movie } from "@/data/content";
+import { T } from "@/components/language";
 
-export function SectionTitle({eyebrow,title,link}:{eyebrow?:string,title:string,link?:string}) {
+export function SectionTitle({eyebrow,title,link}:{eyebrow?:React.ReactNode,title:React.ReactNode,link?:string}) {
   return <div className="mb-7 flex items-end justify-between gap-5 border-b border-white/10 pb-4">
     <div>{eyebrow&&<p className="eyebrow mb-2">{eyebrow}</p>}<h2 className="display text-4xl font-semibold md:text-5xl">{title}</h2></div>
-    {link&&<Link href={link} className="hidden items-center gap-2 text-xs font-bold uppercase tracking-widest text-muted transition hover:text-white sm:flex">View all <ArrowUpRight size={15}/></Link>}
+    {link&&<Link href={link} className="hidden items-center gap-2 text-xs font-bold uppercase tracking-widest text-muted transition hover:text-white sm:flex"><T en="View all" tr="Tümünü gör"/> <ArrowUpRight size={15}/></Link>}
   </div>
 }
 
@@ -29,8 +30,8 @@ export function MovieCard({movie,index=0}:{movie:Movie,index?:number}) {
 
 export function Newsletter() {
   return <section className="container-main my-24 overflow-hidden border border-white/10 bg-panel px-6 py-12 text-center md:px-16 md:py-16">
-    <p className="eyebrow mb-4">The Sunday Cut</p><h2 className="display text-4xl font-semibold md:text-6xl">Better movies. Fewer scrolls.</h2>
-    <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-muted">A thoughtful weekly edit of new releases, hidden gems, and criticism worth reading. No noise, just cinema.</p>
-    <form className="mx-auto mt-8 flex max-w-lg flex-col gap-2 sm:flex-row"><input aria-label="Email address" type="email" placeholder="you@email.com" className="min-w-0 flex-1 border border-white/10 bg-ink px-5 py-3.5 text-sm outline-none transition focus:border-rose"/><button className="bg-rose px-6 py-3.5 text-xs font-extrabold uppercase tracking-widest transition hover:bg-blush">Join free</button></form>
+    <p className="eyebrow mb-4"><T en="The Sunday Cut" tr="Pazar Seçkisi"/></p><h2 className="display text-4xl font-semibold md:text-6xl"><T en="Better movies. Fewer scrolls." tr="Daha iyi filmler. Daha az kaydırma."/></h2>
+    <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-muted"><T en="A thoughtful weekly edit of new releases, hidden gems, and criticism worth reading. No noise, just cinema." tr="Yeni filmler, saklı cevherler ve okumaya değer eleştirilerden oluşan haftalık seçki. Gürültü yok, sadece sinema."/></p>
+    <form className="mx-auto mt-8 flex max-w-lg flex-col gap-2 sm:flex-row"><input aria-label="Email address" type="email" placeholder="you@email.com" className="min-w-0 flex-1 border border-white/10 bg-ink px-5 py-3.5 text-sm outline-none transition focus:border-rose"/><button className="bg-rose px-6 py-3.5 text-xs font-extrabold uppercase tracking-widest transition hover:bg-blush"><T en="Join free" tr="Ücretsiz katıl"/></button></form>
   </section>
 }

@@ -3,6 +3,7 @@ import { Exo_2, Urbanist } from "next/font/google";
 import "./globals.css";
 import { Navbar } from "@/components/navbar";
 import { Footer } from "@/components/footer";
+import { LanguageProvider } from "@/components/language";
 
 const display = Exo_2({ subsets:["latin"], variable:"--font-display", weight:["500","600","700","800"] });
 const sans = Urbanist({ subsets:["latin"], variable:"--font-sans", weight:["400","500","600","700","800"] });
@@ -15,5 +16,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({children}:{children:React.ReactNode}) {
-  return <html lang="en"><body className={`${display.variable} ${sans.variable} font-[var(--font-sans)] antialiased`}><Navbar/><main>{children}</main><Footer/></body></html>;
+  return <html lang="en"><body className={`${display.variable} ${sans.variable} font-[var(--font-sans)] antialiased`}><LanguageProvider><Navbar/><main>{children}</main><Footer/></LanguageProvider></body></html>;
 }

@@ -1,0 +1,894 @@
+{
+  "heroSlides": [
+    {
+      "titleEn": "Stories that stay",
+      "descriptionEn": "Thoughtful reviews, trusted ratings, and cinema worth talking about.",
+      "eyebrowTr": "Roseflix Haftanın Filmi",
+      "accentTr": "hikâyeleri keşfet.",
+      "eyebrowEn": "Roseflix Film of the Week",
+      "accentEn": "after the credits.",
+      "titleTr": "Aklında kalan",
+      "descriptionTr": "Özenli incelemeler, güvenilir puanlar ve konuşmaya değer filmler.",
+      "id": "velvet-night",
+      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "movieSlug": "velvet-night"
+    },
+    {
+      "titleEn": "Find your next",
+      "descriptionEn": "Independent criticism and sharp curation for curious movie lovers.",
+      "eyebrowTr": "Yeni ve Dikkate Değer",
+      "accentTr": "burada bul.",
+      "eyebrowEn": "New & Noteworthy",
+      "accentEn": "favorite film.",
+      "titleTr": "Sıradaki favorini",
+      "descriptionTr": "Meraklı sinemaseverler için bağımsız eleştiri ve güçlü seçkiler.",
+      "id": "after-the-tide",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
+      "movieSlug": "after-the-tide"
+    },
+    {
+      "titleEn": "Cinema for the",
+      "descriptionEn": "Hidden gems, bold debuts, and films that deserve a wider audience.",
+      "eyebrowTr": "Roseflix Seçkisi",
+      "accentTr": "filmler.",
+      "eyebrowEn": "Roseflix Selects",
+      "accentEn": "small hours.",
+      "titleTr": "Geceye eşlik eden",
+      "descriptionTr": "Saklı cevherler, cesur ilk filmler ve daha geniş bir seyirciyi hak eden yapımlar.",
+      "id": "city-of-small-hours",
+      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "movieSlug": "city-of-small-hours"
+    }
+  ],
+  "movies": [
+    {
+      "slug": "the-last-signal",
+      "director": "Mara Voss",
+      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Sci-Fi",
+        "Drama"
+      ],
+      "synopsis": "A linguist on a silent orbital station receives a message that appears to be from Earth, forty years in the future.",
+      "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
+      "title": "The Last Signal",
+      "runtime": "2h 18m",
+      "verdict": "A precise, atmospheric triumph.",
+      "year": 2026,
+      "rating": 9.2,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "velvet-night",
+      "director": "Elias North",
+      "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "synopsis": "A nightclub pianist becomes the only witness to a disappearance nobody else remembers.",
+      "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "title": "Velvet Night",
+      "runtime": "1h 54m",
+      "verdict": "Bold filmmaking with a human pulse.",
+      "year": 2025,
+      "rating": 8.7,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "after-the-tide",
+      "director": "Nina Calder",
+      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "synopsis": "Two former lovers return to an island community rebuilding after an impossible storm.",
+      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
+      "title": "After the Tide",
+      "runtime": "2h 03m",
+      "verdict": "A slow burn that rewards your attention.",
+      "year": 2026,
+      "rating": 8.9,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "red-horizon",
+      "director": "Theo March",
+      "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Adventure",
+        "Sci-Fi"
+      ],
+      "synopsis": "A rescue pilot crosses a forbidden desert where the horizon moves every night.",
+      "backdrop": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85",
+      "title": "Red Horizon",
+      "runtime": "2h 25m",
+      "verdict": "A precise, atmospheric triumph.",
+      "year": 2025,
+      "rating": 8.5,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "the-orchard",
+      "director": "Sofia Vale",
+      "poster": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Horror",
+        "Drama"
+      ],
+      "synopsis": "Three sisters inherit an orchard whose trees bloom only after dark.",
+      "backdrop": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1800&q=85",
+      "title": "The Orchard",
+      "runtime": "1h 47m",
+      "verdict": "Bold filmmaking with a human pulse.",
+      "year": 2024,
+      "rating": 8.3,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "static-hearts",
+      "director": "Jamie Roux",
+      "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Romance",
+        "Comedy"
+      ],
+      "synopsis": "A radio producer and a charming caller fall in love without ever learning each other's names.",
+      "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
+      "title": "Static Hearts",
+      "runtime": "1h 42m",
+      "verdict": "A slow burn that rewards your attention.",
+      "year": 2026,
+      "rating": 8.1,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "north-of-silence",
+      "director": "Anton Reyes",
+      "poster": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Thriller",
+        "Drama"
+      ],
+      "synopsis": "A journalist follows a missing-person trail into a town that has removed itself from every map.",
+      "backdrop": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1800&q=85",
+      "title": "North of Silence",
+      "runtime": "2h 11m",
+      "verdict": "A precise, atmospheric triumph.",
+      "year": 2025,
+      "rating": 8.8,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "the-second-take",
+      "director": "Lena Hart",
+      "poster": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "synopsis": "A forgotten actor gets one final audition for the role based on his own life.",
+      "backdrop": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1800&q=85",
+      "title": "The Second Take",
+      "runtime": "1h 58m",
+      "verdict": "Bold filmmaking with a human pulse.",
+      "year": 2024,
+      "rating": 7.9,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "glass-cities",
+      "director": "Kiran Sol",
+      "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Sci-Fi",
+        "Thriller"
+      ],
+      "synopsis": "In a city where memories are public records, an archivist discovers a day that belongs to no one.",
+      "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "title": "Glass Cities",
+      "runtime": "2h 07m",
+      "verdict": "A slow burn that rewards your attention.",
+      "year": 2026,
+      "rating": 9,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "paper-moons",
+      "director": "Ava Mire",
+      "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Drama",
+        "Adventure"
+      ],
+      "synopsis": "A teenage cartographer and her grandfather redraw a country one last time.",
+      "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
+      "title": "Paper Moons",
+      "runtime": "1h 49m",
+      "verdict": "A precise, atmospheric triumph.",
+      "year": 2025,
+      "rating": 8.4,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "low-season",
+      "director": "Marc Bell",
+      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Comedy",
+        "Mystery"
+      ],
+      "synopsis": "The only guests at a seaside hotel become suspects when the owner vanishes.",
+      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
+      "title": "Low Season",
+      "runtime": "1h 36m",
+      "verdict": "Bold filmmaking with a human pulse.",
+      "year": 2025,
+      "rating": 7.8,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "echo-house",
+      "director": "Ren Ito",
+      "poster": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Horror",
+        "Mystery"
+      ],
+      "synopsis": "A sound designer renovates a house that plays conversations before they happen.",
+      "backdrop": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1800&q=85",
+      "title": "Echo House",
+      "runtime": "1h 51m",
+      "verdict": "A slow burn that rewards your attention.",
+      "year": 2026,
+      "rating": 8.6,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "bright-objects",
+      "director": "Cleo Wynn",
+      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Drama",
+        "Sci-Fi"
+      ],
+      "synopsis": "A grieving astronomer catalogs strange objects appearing in family photographs.",
+      "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
+      "title": "Bright Objects",
+      "runtime": "2h 01m",
+      "verdict": "A precise, atmospheric triumph.",
+      "year": 2024,
+      "rating": 8,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "wild-mercy",
+      "director": "Jonas Pike",
+      "poster": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Action",
+        "Drama"
+      ],
+      "synopsis": "A park ranger escorts a fugitive through a wildfire while questioning who deserves rescue.",
+      "backdrop": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1800&q=85",
+      "title": "Wild Mercy",
+      "runtime": "2h 14m",
+      "verdict": "Bold filmmaking with a human pulse.",
+      "year": 2025,
+      "rating": 8.2,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "borrowed-light",
+      "director": "Amara Chen",
+      "poster": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Romance",
+        "Drama"
+      ],
+      "synopsis": "A portrait photographer begins seeing the hidden lives of everyone she captures.",
+      "backdrop": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1800&q=85",
+      "title": "Borrowed Light",
+      "runtime": "1h 45m",
+      "verdict": "A slow burn that rewards your attention.",
+      "year": 2026,
+      "rating": 8.7,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "blackwater-mile",
+      "director": "Dean Crow",
+      "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Action",
+        "Thriller"
+      ],
+      "synopsis": "A courier has one night to deliver a case across a city under lockdown.",
+      "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
+      "title": "Blackwater Mile",
+      "runtime": "1h 57m",
+      "verdict": "A precise, atmospheric triumph.",
+      "year": 2024,
+      "rating": 7.7,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "the-sundial",
+      "director": "Inez Ford",
+      "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Mystery",
+        "Adventure"
+      ],
+      "synopsis": "An archaeologist finds a sundial that points toward moments instead of directions.",
+      "backdrop": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85",
+      "title": "The Sundial",
+      "runtime": "2h 09m",
+      "verdict": "Bold filmmaking with a human pulse.",
+      "year": 2025,
+      "rating": 8.5,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "ordinary-stars",
+      "director": "Milo Grant",
+      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Comedy",
+        "Drama"
+      ],
+      "synopsis": "Five neighbors mistake a satellite crash for first contact and finally meet one another.",
+      "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
+      "title": "Ordinary Stars",
+      "runtime": "1h 40m",
+      "verdict": "A slow burn that rewards your attention.",
+      "year": 2026,
+      "rating": 8.3,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    },
+    {
+      "slug": "all-the-blue",
+      "director": "Noor Davis",
+      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Drama",
+        "Romance"
+      ],
+      "synopsis": "A competitive swimmer returns home to teach her estranged father how to float.",
+      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
+      "title": "All the Blue",
+      "runtime": "1h 52m",
+      "verdict": "A precise, atmospheric triumph.",
+      "year": 2024,
+      "rating": 8.1,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks"
+      ]
+    },
+    {
+      "slug": "city-of-small-hours",
+      "director": "Rafa Stone",
+      "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
+      "genres": [
+        "Thriller",
+        "Mystery"
+      ],
+      "synopsis": "A night-shift taxi driver realizes every passenger is headed to the same address.",
+      "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+      "title": "City of Small Hours",
+      "runtime": "2h 05m",
+      "verdict": "Bold filmmaking with a human pulse.",
+      "year": 2025,
+      "rating": 8.9,
+      "cast": [
+        "Lea Moreno",
+        "David Kaye",
+        "Imani Brooks",
+        "Tomas Vale"
+      ]
+    }
+  ],
+  "reviews": [
+    {
+      "movie": {
+        "slug": "the-last-signal",
+        "director": "Mara Voss",
+        "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Sci-Fi",
+          "Drama"
+        ],
+        "synopsis": "A linguist on a silent orbital station receives a message that appears to be from Earth, forty years in the future.",
+        "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
+        "title": "The Last Signal",
+        "runtime": "2h 18m",
+        "verdict": "A precise, atmospheric triumph.",
+        "year": 2026,
+        "rating": 9.2,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks"
+        ]
+      },
+      "author": "Maya Ellis",
+      "date": "June 10, 2026",
+      "excerpt": "A precise, atmospheric triumph. The Last Signal turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "The Last Signal understands that spectacle only matters when it reveals character. Director Mara Voss builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "velvet-night",
+        "director": "Elias North",
+        "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Thriller",
+          "Mystery"
+        ],
+        "synopsis": "A nightclub pianist becomes the only witness to a disappearance nobody else remembers.",
+        "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+        "title": "Velvet Night",
+        "runtime": "1h 54m",
+        "verdict": "Bold filmmaking with a human pulse.",
+        "year": 2025,
+        "rating": 8.7,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks",
+          "Tomas Vale"
+        ]
+      },
+      "author": "Jon Bell",
+      "date": "June 9, 2026",
+      "excerpt": "Bold filmmaking with a human pulse. Velvet Night turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "Velvet Night understands that spectacle only matters when it reveals character. Director Elias North builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "after-the-tide",
+        "director": "Nina Calder",
+        "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Drama",
+          "Romance"
+        ],
+        "synopsis": "Two former lovers return to an island community rebuilding after an impossible storm.",
+        "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
+        "title": "After the Tide",
+        "runtime": "2h 03m",
+        "verdict": "A slow burn that rewards your attention.",
+        "year": 2026,
+        "rating": 8.9,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks"
+        ]
+      },
+      "author": "Ari Cohen",
+      "date": "June 8, 2026",
+      "excerpt": "A slow burn that rewards your attention. After the Tide turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "After the Tide understands that spectacle only matters when it reveals character. Director Nina Calder builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "red-horizon",
+        "director": "Theo March",
+        "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Adventure",
+          "Sci-Fi"
+        ],
+        "synopsis": "A rescue pilot crosses a forbidden desert where the horizon moves every night.",
+        "backdrop": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85",
+        "title": "Red Horizon",
+        "runtime": "2h 25m",
+        "verdict": "A precise, atmospheric triumph.",
+        "year": 2025,
+        "rating": 8.5,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks",
+          "Tomas Vale"
+        ]
+      },
+      "author": "Nora Singh",
+      "date": "June 7, 2026",
+      "excerpt": "A precise, atmospheric triumph. Red Horizon turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "Red Horizon understands that spectacle only matters when it reveals character. Director Theo March builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "the-orchard",
+        "director": "Sofia Vale",
+        "poster": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Horror",
+          "Drama"
+        ],
+        "synopsis": "Three sisters inherit an orchard whose trees bloom only after dark.",
+        "backdrop": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1800&q=85",
+        "title": "The Orchard",
+        "runtime": "1h 47m",
+        "verdict": "Bold filmmaking with a human pulse.",
+        "year": 2024,
+        "rating": 8.3,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks"
+        ]
+      },
+      "author": "Maya Ellis",
+      "date": "June 6, 2026",
+      "excerpt": "Bold filmmaking with a human pulse. The Orchard turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "The Orchard understands that spectacle only matters when it reveals character. Director Sofia Vale builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "static-hearts",
+        "director": "Jamie Roux",
+        "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Romance",
+          "Comedy"
+        ],
+        "synopsis": "A radio producer and a charming caller fall in love without ever learning each other's names.",
+        "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
+        "title": "Static Hearts",
+        "runtime": "1h 42m",
+        "verdict": "A slow burn that rewards your attention.",
+        "year": 2026,
+        "rating": 8.1,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks",
+          "Tomas Vale"
+        ]
+      },
+      "author": "Jon Bell",
+      "date": "June 5, 2026",
+      "excerpt": "A slow burn that rewards your attention. Static Hearts turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "Static Hearts understands that spectacle only matters when it reveals character. Director Jamie Roux builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "north-of-silence",
+        "director": "Anton Reyes",
+        "poster": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Thriller",
+          "Drama"
+        ],
+        "synopsis": "A journalist follows a missing-person trail into a town that has removed itself from every map.",
+        "backdrop": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1800&q=85",
+        "title": "North of Silence",
+        "runtime": "2h 11m",
+        "verdict": "A precise, atmospheric triumph.",
+        "year": 2025,
+        "rating": 8.8,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks"
+        ]
+      },
+      "author": "Ari Cohen",
+      "date": "June 4, 2026",
+      "excerpt": "A precise, atmospheric triumph. North of Silence turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "North of Silence understands that spectacle only matters when it reveals character. Director Anton Reyes builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "the-second-take",
+        "director": "Lena Hart",
+        "poster": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Comedy",
+          "Drama"
+        ],
+        "synopsis": "A forgotten actor gets one final audition for the role based on his own life.",
+        "backdrop": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1800&q=85",
+        "title": "The Second Take",
+        "runtime": "1h 58m",
+        "verdict": "Bold filmmaking with a human pulse.",
+        "year": 2024,
+        "rating": 7.9,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks",
+          "Tomas Vale"
+        ]
+      },
+      "author": "Nora Singh",
+      "date": "June 3, 2026",
+      "excerpt": "Bold filmmaking with a human pulse. The Second Take turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "The Second Take understands that spectacle only matters when it reveals character. Director Lena Hart builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "glass-cities",
+        "director": "Kiran Sol",
+        "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Sci-Fi",
+          "Thriller"
+        ],
+        "synopsis": "In a city where memories are public records, an archivist discovers a day that belongs to no one.",
+        "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
+        "title": "Glass Cities",
+        "runtime": "2h 07m",
+        "verdict": "A slow burn that rewards your attention.",
+        "year": 2026,
+        "rating": 9,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks"
+        ]
+      },
+      "author": "Maya Ellis",
+      "date": "June 2, 2026",
+      "excerpt": "A slow burn that rewards your attention. Glass Cities turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "Glass Cities understands that spectacle only matters when it reveals character. Director Kiran Sol builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "paper-moons",
+        "director": "Ava Mire",
+        "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
+        "genres": [
+          "Drama",
+          "Adventure"
+        ],
+        "synopsis": "A teenage cartographer and her grandfather redraw a country one last time.",
+        "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
+        "title": "Paper Moons",
+        "runtime": "1h 49m",
+        "verdict": "A precise, atmospheric triumph.",
+        "year": 2025,
+        "rating": 8.4,
+        "cast": [
+          "Lea Moreno",
+          "David Kaye",
+          "Imani Brooks",
+          "Tomas Vale"
+        ]
+      },
+      "author": "Jon Bell",
+      "date": "June 1, 2026",
+      "excerpt": "A precise, atmospheric triumph. Paper Moons turns its ambitious premise into a richly observed story about the choices that define us.",
+      "body": "Paper Moons understands that spectacle only matters when it reveals character. Director Ava Mire builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "pros": [
+        "Confident visual language",
+        "Excellent ensemble performances",
+        "A memorable final act"
+      ],
+      "cons": [
+        "The middle act occasionally drifts",
+        "Some ideas deserve more room"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "slug": "best-sci-fi-movies-2026",
+      "title": "Best Sci-Fi Movies of 2026",
+      "category": "The List",
+      "excerpt": "Ten films expanding the boundaries of what science fiction can feel like.",
+      "image": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1400&q=85",
+      "read": "8 min"
+    },
+    {
+      "slug": "psychological-thrillers",
+      "title": "Top 10 Psychological Thrillers",
+      "category": "Essential Viewing",
+      "excerpt": "Twisted narratives, unreliable minds, and endings that refuse to leave.",
+      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1400&q=85",
+      "read": "11 min"
+    },
+    {
+      "slug": "nolan-ranking",
+      "title": "Christopher Nolan Film Ranking",
+      "category": "Directors",
+      "excerpt": "A considered ranking of cinema's most devoted architect of time.",
+      "image": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1400&q=85",
+      "read": "14 min"
+    },
+    {
+      "slug": "hidden-gems-tonight",
+      "title": "Hidden Gems You Should Watch Tonight",
+      "category": "Roseflix Selects",
+      "excerpt": "Quiet masterpieces and cult curiosities hiding in plain sight.",
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1400&q=85",
+      "read": "6 min"
+    },
+    {
+      "slug": "most-anticipated",
+      "title": "Most Anticipated Movies of the Year",
+      "category": "Preview",
+      "excerpt": "The releases already shaping the year in cinema.",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1400&q=85",
+      "read": "9 min"
+    }
+  ],
+  "categories": [
+    "Action",
+    "Drama",
+    "Horror",
+    "Thriller",
+    "Comedy",
+    "Sci-Fi",
+    "Romance",
+    "Animation"
+  ]
+}
