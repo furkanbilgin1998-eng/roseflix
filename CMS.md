@@ -32,6 +32,7 @@ Click **Login**. Local changes are written directly to `data/cms-content.json` a
 
 ## Image sizes
 
+- Supported upload formats: `JPG`, `JPEG`, `PNG`, and `WebP`
 - Hero and movie backdrops: `1920x1080`
 - Movie posters: `1000x1500`
 - Article covers: `1600x900`
@@ -39,6 +40,13 @@ Click **Login**. Local changes are written directly to `data/cms-content.json` a
 
 ## Production authentication
 
-The production CMS uses the GitHub backend configured in `public/admin/config.yml`. A hosted OAuth proxy or Netlify Identity with GitHub authentication must be configured before editors can log in on the deployed site.
+The production CMS uses Netlify Identity and Git Gateway.
 
-Update `site_url` and `display_url` in `public/admin/config.yml` when the production domain is known.
+1. In Netlify, open **Project configuration > Identity** and enable Identity.
+2. Set registration to **Invite only**.
+3. Open **Identity > Services > Git Gateway** and enable Git Gateway.
+4. Invite editor email addresses from the Identity users page.
+
+Editors can then sign in at `/admin` and publish changes to the connected GitHub repository.
+
+Update `site_url` and `display_url` in `public/admin/config.yml` when the custom production domain is known.

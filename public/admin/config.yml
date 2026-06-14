@@ -1,14 +1,13 @@
 backend:
-  name: github
-  repo: furkanbilgin1998-eng/roseflix
+  name: git-gateway
   branch: main
 
 local_backend: true
 publish_mode: simple
 media_folder: public/uploads
 public_folder: /uploads
-site_url: http://localhost:3001
-display_url: http://localhost:3001
+site_url: https://roseflix.com.tr
+display_url: https://roseflix.com.tr
 logo_url: /roseflix-mark.svg
 
 collections:
@@ -34,7 +33,7 @@ collections:
               - { label: Accent TR, name: accentTr, widget: string }
               - { label: Description EN, name: descriptionEn, widget: text }
               - { label: Description TR, name: descriptionTr, widget: text }
-              - { label: Hero Image, name: image, widget: image, hint: "Recommended: 1920×1080 px. Keep subjects inside the central 1200×700 px." }
+              - { label: Hero Image, name: image, widget: image, hint: "Formats: JPG, JPEG, PNG or WebP. Recommended: 1920×1080 px. Keep subjects inside the central 1200×700 px." }
               - { label: Linked Movie Slug, name: movieSlug, widget: string }
 
           - label: Movies
@@ -56,8 +55,8 @@ collections:
                 name: cast
                 widget: list
                 field: { label: Cast Member, name: member, widget: string }
-              - { label: Poster, name: poster, widget: image, hint: "Recommended: 1000×1500 px." }
-              - { label: Backdrop, name: backdrop, widget: image, hint: "Recommended: 1920×1080 px." }
+              - { label: Poster, name: poster, widget: image, hint: "Formats: JPG, JPEG, PNG or WebP. Recommended: 1000×1500 px." }
+              - { label: Backdrop, name: backdrop, widget: image, hint: "Formats: JPG, JPEG, PNG or WebP. Recommended: 1920×1080 px." }
               - { label: Synopsis, name: synopsis, widget: text }
               - { label: Verdict, name: verdict, widget: string }
 
@@ -85,8 +84,8 @@ collections:
                     name: cast
                     widget: list
                     field: { label: Cast Member, name: member, widget: string }
-                  - { label: Poster, name: poster, widget: image }
-                  - { label: Backdrop, name: backdrop, widget: image }
+                  - { label: Poster, name: poster, widget: image, hint: "Formats: JPG, JPEG, PNG or WebP." }
+                  - { label: Backdrop, name: backdrop, widget: image, hint: "Formats: JPG, JPEG, PNG or WebP." }
                   - { label: Synopsis, name: synopsis, widget: text }
                   - { label: Verdict, name: verdict, widget: string }
               - { label: Author, name: author, widget: string }
@@ -111,7 +110,7 @@ collections:
               - { label: Title, name: title, widget: string }
               - { label: Category, name: category, widget: string }
               - { label: Excerpt, name: excerpt, widget: text }
-              - { label: Cover Image, name: image, widget: image, hint: "Recommended: 1600×900 px." }
+              - { label: Cover Image, name: image, widget: image, hint: "Formats: JPG, JPEG, PNG or WebP. Recommended: 1600×900 px." }
               - { label: Reading Time, name: read, widget: string }
               - { label: Article Body EN, name: bodyEn, widget: markdown, required: false }
               - { label: Article Body TR, name: bodyTr, widget: markdown, required: false }

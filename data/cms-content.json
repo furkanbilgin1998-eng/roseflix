@@ -1,841 +1,308 @@
 {
   "heroSlides": [
     {
-      "titleEn": "Stories that stay",
-      "descriptionEn": "Thoughtful reviews, trusted ratings, and cinema worth talking about.",
+      "id": "harry-potter-and-the-half-blood-prince",
+      "titleTr": "Büyünün karanlığa döndüğü",
+      "titleEn": "Where magic turns",
+      "accentTr": "an.",
+      "accentEn": "dark.",
       "eyebrowTr": "Roseflix Haftanın Filmi",
-      "accentTr": "hikâyeleri keşfet.",
       "eyebrowEn": "Roseflix Film of the Week",
-      "accentEn": "after the credits.",
-      "titleTr": "Aklında kalan",
-      "descriptionTr": "Özenli incelemeler, güvenilir puanlar ve konuşmaya değer filmler.",
-      "id": "velvet-night",
-      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-      "movieSlug": "velvet-night"
+      "descriptionTr": "Hogwarts'ın en karanlık dönemine dair etkileyici bir sinema deneyimi.",
+      "descriptionEn": "A compelling cinematic experience set in Hogwarts' darkest chapter.",
+      "image": "/uploads/hp-hero.webp",
+      "movieSlug": "harry-potter-and-the-half-blood-prince"
     },
     {
-      "titleEn": "Find your next",
-      "descriptionEn": "Independent criticism and sharp curation for curious movie lovers.",
+      "id": "parasite",
+      "titleTr": "Sınıflar arası uçurumu",
+      "titleEn": "A story that divides",
+      "accentTr": "keşfet.",
+      "accentEn": "and unites.",
       "eyebrowTr": "Yeni ve Dikkate Değer",
-      "accentTr": "burada bul.",
       "eyebrowEn": "New & Noteworthy",
-      "accentEn": "favorite film.",
-      "titleTr": "Sıradaki favorini",
-      "descriptionTr": "Meraklı sinemaseverler için bağımsız eleştiri ve güçlü seçkiler.",
-      "id": "after-the-tide",
-      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
-      "movieSlug": "after-the-tide"
-    },
-    {
-      "titleEn": "Cinema for the",
-      "descriptionEn": "Hidden gems, bold debuts, and films that deserve a wider audience.",
-      "eyebrowTr": "Roseflix Seçkisi",
-      "accentTr": "filmler.",
-      "eyebrowEn": "Roseflix Selects",
-      "accentEn": "small hours.",
-      "titleTr": "Geceye eşlik eden",
-      "descriptionTr": "Saklı cevherler, cesur ilk filmler ve daha geniş bir seyirciyi hak eden yapımlar.",
-      "id": "city-of-small-hours",
-      "image": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-      "movieSlug": "city-of-small-hours"
+      "descriptionTr": "Bong Joon-ho'nun sınıf eşitsizliğini ele alan çarpıcı başyapıtı.",
+      "descriptionEn": "Bong Joon-ho's gripping masterpiece on class inequality.",
+      "image": "/uploads/parasite-hero.jpg",
+      "movieSlug": "parasite"
     }
   ],
   "movies": [
     {
-      "slug": "the-last-signal",
-      "director": "Mara Voss",
-      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Sci-Fi",
-        "Drama"
-      ],
-      "synopsis": "A linguist on a silent orbital station receives a message that appears to be from Earth, forty years in the future.",
-      "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
-      "title": "The Last Signal",
-      "runtime": "2h 18m",
-      "verdict": "A precise, atmospheric triumph.",
-      "year": 2026,
-      "rating": 9.2,
+      "slug": "alice-through-the-looking-glass",
+      "title": "Alice Through the Looking Glass",
+      "director": "James Bobin",
+      "year": 2016,
+      "runtime": "1h 53m",
+      "genres": ["Fantasy", "Adventure", "Family"],
+      "poster": "/uploads/alice-in-wonderland-cover.jpg",
+      "backdrop": "/uploads/alice-in-wonderland-hero.webp",
+      "synopsis": "Alice returns to the magical world of Underland, where she must travel through time to save the Mad Hatter and prevent a catastrophic event from destroying Wonderland.",
+      "verdict": "A visually dazzling adventure that balances whimsy with heart.",
+      "rating": 7.2,
       "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
+        "Mia Wasikowska",
+        "Johnny Depp",
+        "Helena Bonham Carter",
+        "Anne Hathaway",
+        "Rhys Ifans"
       ]
     },
     {
-      "slug": "velvet-night",
-      "director": "Elias North",
-      "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "synopsis": "A nightclub pianist becomes the only witness to a disappearance nobody else remembers.",
-      "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-      "title": "Velvet Night",
-      "runtime": "1h 54m",
-      "verdict": "Bold filmmaking with a human pulse.",
-      "year": 2025,
+      "slug": "world-war-z",
+      "title": "World War Z",
+      "director": "Marc Forster",
+      "year": 2013,
+      "runtime": "1h 56m",
+      "genres": ["Action", "Thriller", "Horror"],
+      "poster": "/uploads/world-warz-cover.jpg",
+      "backdrop": "/uploads/world-warz-hero.jpg",
+      "synopsis": "A former UN investigator races against time to stop a zombie pandemic threatening to destroy humanity, travelling across the globe to find a solution.",
+      "verdict": "A globe-trotting zombie thriller that trades scares for scope.",
+      "rating": 7.0,
+      "cast": [
+        "Brad Pitt",
+        "Mireille Enos",
+        "Daniella Kertesz",
+        "James Badge Dale",
+        "Matthew Fox"
+      ]
+    },
+    {
+      "slug": "harry-potter-and-the-half-blood-prince",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "director": "David Yates",
+      "year": 2009,
+      "runtime": "2h 33m",
+      "genres": ["Fantasy", "Adventure", "Mystery"],
+      "poster": "/uploads/hp-cover.webp",
+      "backdrop": "/uploads/hp-hero.webp",
+      "synopsis": "As Voldemort tightens his grip on the wizarding world, Harry and Dumbledore work to uncover the secrets of the Dark Lord's past while Hogwarts faces its darkest year.",
+      "verdict": "The series' most emotionally mature entry — atmospheric and devastating.",
       "rating": 8.7,
       "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
+        "Daniel Radcliffe",
+        "Rupert Grint",
+        "Emma Watson",
+        "Michael Gambon",
+        "Alan Rickman"
       ]
     },
     {
-      "slug": "after-the-tide",
-      "director": "Nina Calder",
-      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "synopsis": "Two former lovers return to an island community rebuilding after an impossible storm.",
-      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
-      "title": "After the Tide",
-      "runtime": "2h 03m",
-      "verdict": "A slow burn that rewards your attention.",
-      "year": 2026,
-      "rating": 8.9,
+      "slug": "parasite",
+      "title": "Parasite",
+      "director": "Bong Joon-ho",
+      "year": 2019,
+      "runtime": "2h 12m",
+      "genres": ["Drama", "Thriller", "Comedy"],
+      "poster": "/uploads/parasite-cover.jpg",
+      "backdrop": "/uploads/parasite-hero.jpg",
+      "synopsis": "A struggling Korean family schemes to become employed by a wealthy household, setting off a darkly comic and increasingly dangerous chain of events about class and inequality.",
+      "verdict": "A masterwork — sharp, shocking, and impossible to forget.",
+      "rating": 9.5,
       "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
+        "Song Kang-ho",
+        "Lee Sun-kyun",
+        "Cho Yeo-jeong",
+        "Choi Woo-shik",
+        "Park So-dam"
       ]
     },
     {
-      "slug": "red-horizon",
-      "director": "Theo March",
-      "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Adventure",
-        "Sci-Fi"
-      ],
-      "synopsis": "A rescue pilot crosses a forbidden desert where the horizon moves every night.",
-      "backdrop": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85",
-      "title": "Red Horizon",
-      "runtime": "2h 25m",
-      "verdict": "A precise, atmospheric triumph.",
-      "year": 2025,
-      "rating": 8.5,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "the-orchard",
-      "director": "Sofia Vale",
-      "poster": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Horror",
-        "Drama"
-      ],
-      "synopsis": "Three sisters inherit an orchard whose trees bloom only after dark.",
-      "backdrop": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1800&q=85",
-      "title": "The Orchard",
-      "runtime": "1h 47m",
-      "verdict": "Bold filmmaking with a human pulse.",
-      "year": 2024,
-      "rating": 8.3,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "static-hearts",
-      "director": "Jamie Roux",
-      "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Romance",
-        "Comedy"
-      ],
-      "synopsis": "A radio producer and a charming caller fall in love without ever learning each other's names.",
-      "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
-      "title": "Static Hearts",
-      "runtime": "1h 42m",
-      "verdict": "A slow burn that rewards your attention.",
-      "year": 2026,
-      "rating": 8.1,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "north-of-silence",
-      "director": "Anton Reyes",
-      "poster": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Thriller",
-        "Drama"
-      ],
-      "synopsis": "A journalist follows a missing-person trail into a town that has removed itself from every map.",
-      "backdrop": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1800&q=85",
-      "title": "North of Silence",
-      "runtime": "2h 11m",
-      "verdict": "A precise, atmospheric triumph.",
-      "year": 2025,
-      "rating": 8.8,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "the-second-take",
-      "director": "Lena Hart",
-      "poster": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "synopsis": "A forgotten actor gets one final audition for the role based on his own life.",
-      "backdrop": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1800&q=85",
-      "title": "The Second Take",
-      "runtime": "1h 58m",
-      "verdict": "Bold filmmaking with a human pulse.",
-      "year": 2024,
-      "rating": 7.9,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "glass-cities",
-      "director": "Kiran Sol",
-      "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Sci-Fi",
-        "Thriller"
-      ],
-      "synopsis": "In a city where memories are public records, an archivist discovers a day that belongs to no one.",
-      "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-      "title": "Glass Cities",
-      "runtime": "2h 07m",
-      "verdict": "A slow burn that rewards your attention.",
-      "year": 2026,
-      "rating": 9,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "paper-moons",
-      "director": "Ava Mire",
-      "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Drama",
-        "Adventure"
-      ],
-      "synopsis": "A teenage cartographer and her grandfather redraw a country one last time.",
-      "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
-      "title": "Paper Moons",
-      "runtime": "1h 49m",
-      "verdict": "A precise, atmospheric triumph.",
-      "year": 2025,
-      "rating": 8.4,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "low-season",
-      "director": "Marc Bell",
-      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Comedy",
-        "Mystery"
-      ],
-      "synopsis": "The only guests at a seaside hotel become suspects when the owner vanishes.",
-      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
-      "title": "Low Season",
-      "runtime": "1h 36m",
-      "verdict": "Bold filmmaking with a human pulse.",
-      "year": 2025,
-      "rating": 7.8,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "echo-house",
-      "director": "Ren Ito",
-      "poster": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Horror",
-        "Mystery"
-      ],
-      "synopsis": "A sound designer renovates a house that plays conversations before they happen.",
-      "backdrop": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1800&q=85",
-      "title": "Echo House",
-      "runtime": "1h 51m",
-      "verdict": "A slow burn that rewards your attention.",
-      "year": 2026,
-      "rating": 8.6,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "bright-objects",
-      "director": "Cleo Wynn",
-      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Drama",
-        "Sci-Fi"
-      ],
-      "synopsis": "A grieving astronomer catalogs strange objects appearing in family photographs.",
-      "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
-      "title": "Bright Objects",
-      "runtime": "2h 01m",
-      "verdict": "A precise, atmospheric triumph.",
-      "year": 2024,
-      "rating": 8,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "wild-mercy",
-      "director": "Jonas Pike",
-      "poster": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Action",
-        "Drama"
-      ],
-      "synopsis": "A park ranger escorts a fugitive through a wildfire while questioning who deserves rescue.",
-      "backdrop": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1800&q=85",
-      "title": "Wild Mercy",
-      "runtime": "2h 14m",
-      "verdict": "Bold filmmaking with a human pulse.",
-      "year": 2025,
+      "slug": "corpse-bride",
+      "title": "Corpse Bride",
+      "director": "Tim Burton",
+      "year": 2005,
+      "runtime": "1h 17m",
+      "genres": ["Animation", "Fantasy", "Romance"],
+      "poster": "/uploads/corpse-bride-cover.jpg",
+      "backdrop": "/uploads/corpse-bride-hero.jpg",
+      "synopsis": "In a 19th-century European village, a shy young man accidentally marries a deceased woman while practising his wedding vows — and is whisked away to the Land of the Dead.",
+      "verdict": "Gothic, gorgeous, and genuinely moving — Burton at his most elegant.",
       "rating": 8.2,
       "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "borrowed-light",
-      "director": "Amara Chen",
-      "poster": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Romance",
-        "Drama"
-      ],
-      "synopsis": "A portrait photographer begins seeing the hidden lives of everyone she captures.",
-      "backdrop": "https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&w=1800&q=85",
-      "title": "Borrowed Light",
-      "runtime": "1h 45m",
-      "verdict": "A slow burn that rewards your attention.",
-      "year": 2026,
-      "rating": 8.7,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "blackwater-mile",
-      "director": "Dean Crow",
-      "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Action",
-        "Thriller"
-      ],
-      "synopsis": "A courier has one night to deliver a case across a city under lockdown.",
-      "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
-      "title": "Blackwater Mile",
-      "runtime": "1h 57m",
-      "verdict": "A precise, atmospheric triumph.",
-      "year": 2024,
-      "rating": 7.7,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "the-sundial",
-      "director": "Inez Ford",
-      "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Mystery",
-        "Adventure"
-      ],
-      "synopsis": "An archaeologist finds a sundial that points toward moments instead of directions.",
-      "backdrop": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85",
-      "title": "The Sundial",
-      "runtime": "2h 09m",
-      "verdict": "Bold filmmaking with a human pulse.",
-      "year": 2025,
-      "rating": 8.5,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "ordinary-stars",
-      "director": "Milo Grant",
-      "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Comedy",
-        "Drama"
-      ],
-      "synopsis": "Five neighbors mistake a satellite crash for first contact and finally meet one another.",
-      "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
-      "title": "Ordinary Stars",
-      "runtime": "1h 40m",
-      "verdict": "A slow burn that rewards your attention.",
-      "year": 2026,
-      "rating": 8.3,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
-      ]
-    },
-    {
-      "slug": "all-the-blue",
-      "director": "Noor Davis",
-      "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Drama",
-        "Romance"
-      ],
-      "synopsis": "A competitive swimmer returns home to teach her estranged father how to float.",
-      "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
-      "title": "All the Blue",
-      "runtime": "1h 52m",
-      "verdict": "A precise, atmospheric triumph.",
-      "year": 2024,
-      "rating": 8.1,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks"
-      ]
-    },
-    {
-      "slug": "city-of-small-hours",
-      "director": "Rafa Stone",
-      "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
-      "genres": [
-        "Thriller",
-        "Mystery"
-      ],
-      "synopsis": "A night-shift taxi driver realizes every passenger is headed to the same address.",
-      "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-      "title": "City of Small Hours",
-      "runtime": "2h 05m",
-      "verdict": "Bold filmmaking with a human pulse.",
-      "year": 2025,
-      "rating": 8.9,
-      "cast": [
-        "Lea Moreno",
-        "David Kaye",
-        "Imani Brooks",
-        "Tomas Vale"
+        "Johnny Depp",
+        "Helena Bonham Carter",
+        "Emily Watson",
+        "Tracey Ullman",
+        "Paul Whitehouse"
       ]
     }
   ],
   "reviews": [
     {
       "movie": {
-        "slug": "the-last-signal",
-        "director": "Mara Voss",
-        "poster": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Sci-Fi",
-          "Drama"
-        ],
-        "synopsis": "A linguist on a silent orbital station receives a message that appears to be from Earth, forty years in the future.",
-        "backdrop": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?auto=format&fit=crop&w=1800&q=85",
-        "title": "The Last Signal",
-        "runtime": "2h 18m",
-        "verdict": "A precise, atmospheric triumph.",
-        "year": 2026,
-        "rating": 9.2,
-        "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks"
-        ]
-      },
-      "author": "Maya Ellis",
-      "date": "June 10, 2026",
-      "excerpt": "A precise, atmospheric triumph. The Last Signal turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "The Last Signal understands that spectacle only matters when it reveals character. Director Mara Voss builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
-      "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
-      ],
-      "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
-      ]
-    },
-    {
-      "movie": {
-        "slug": "velvet-night",
-        "director": "Elias North",
-        "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Thriller",
-          "Mystery"
-        ],
-        "synopsis": "A nightclub pianist becomes the only witness to a disappearance nobody else remembers.",
-        "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-        "title": "Velvet Night",
-        "runtime": "1h 54m",
-        "verdict": "Bold filmmaking with a human pulse.",
-        "year": 2025,
+        "slug": "harry-potter-and-the-half-blood-prince",
+        "title": "Harry Potter and the Half-Blood Prince",
+        "director": "David Yates",
+        "year": 2009,
+        "runtime": "2h 33m",
+        "genres": ["Fantasy", "Adventure", "Mystery"],
+        "poster": "/uploads/hp-cover.webp",
+        "backdrop": "/uploads/hp-hero.webp",
+        "synopsis": "As Voldemort tightens his grip on the wizarding world, Harry and Dumbledore work to uncover the secrets of the Dark Lord's past while Hogwarts faces its darkest year.",
+        "verdict": "The series' most emotionally mature entry — atmospheric and devastating.",
         "rating": 8.7,
         "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks",
-          "Tomas Vale"
+          "Daniel Radcliffe",
+          "Rupert Grint",
+          "Emma Watson",
+          "Michael Gambon",
+          "Alan Rickman"
         ]
       },
-      "author": "Jon Bell",
+      "author": "Gül Erçolak",
       "date": "June 9, 2026",
-      "excerpt": "Bold filmmaking with a human pulse. Velvet Night turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "Velvet Night understands that spectacle only matters when it reveals character. Director Elias North builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "excerpt": "Harry Potter and the Half-Blood Prince explores the moment when the magical world loses its innocence — a powerful bridge between childhood adventure and the inevitable realities of war.",
+      "body": "Harry Potter and the Half-Blood Prince represents a significant shift in the series, moving away from the sense of wonder that defined the earlier films and embracing a much darker and more mature tone. Rather than focusing primarily on adventure, the story explores fear, loyalty, loss, and the growing threat of Voldemort's return. This transition marks an important turning point in the franchise as the wizarding world begins to face the reality of an approaching war.\n\nOne of the film's greatest strengths is its atmosphere. The darker cinematography and more restrained visual style create a sense of tension that is present throughout the story. Hogwarts, once a place of safety and discovery, feels increasingly vulnerable, reflecting the uncertainty experienced by the characters.\n\nThe film also places a stronger emphasis on character development. Harry's relationship with Dumbledore becomes more important than ever as they work together to uncover Voldemort's past. At the same time, Draco Malfoy receives one of the most compelling storylines in the series. His internal struggle adds emotional depth and demonstrates that the conflict between good and evil is often more complex than it first appears.\n\nAnother notable aspect is the balance between darkness and everyday teenage life. Romantic relationships, friendships, and moments of humor provide relief from the growing tension while making the characters feel more relatable. These quieter moments help humanize the story and remind the audience that the characters are still teenagers despite the extraordinary circumstances surrounding them.\n\nThe emotional climax of the film is particularly effective because it relies less on action and more on the consequences of the choices made by its characters. The final events fundamentally change the direction of the series and create a powerful sense of anticipation for what follows.\n\nOverall, Harry Potter and the Half-Blood Prince is one of the most emotionally mature entries in the franchise. Through its strong atmosphere, character-focused storytelling, and exploration of sacrifice and responsibility, the film successfully prepares the audience for the dramatic conclusion of the Harry Potter saga.",
       "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
+        "Confident and mature atmosphere",
+        "Strong character development, especially Draco Malfoy",
+        "Emotional and memorable final act"
       ],
       "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
+        "The middle section occasionally loses momentum",
+        "Some subplots, particularly the romances, feel underdeveloped"
       ]
     },
     {
       "movie": {
-        "slug": "after-the-tide",
-        "director": "Nina Calder",
-        "poster": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Drama",
-          "Romance"
-        ],
-        "synopsis": "Two former lovers return to an island community rebuilding after an impossible storm.",
-        "backdrop": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1800&q=85",
-        "title": "After the Tide",
-        "runtime": "2h 03m",
-        "verdict": "A slow burn that rewards your attention.",
-        "year": 2026,
-        "rating": 8.9,
+        "slug": "parasite",
+        "title": "Parasite",
+        "director": "Bong Joon-ho",
+        "year": 2019,
+        "runtime": "2h 12m",
+        "genres": ["Drama", "Thriller", "Comedy"],
+        "poster": "/uploads/parasite-cover.jpg",
+        "backdrop": "/uploads/parasite-hero.jpg",
+        "synopsis": "A struggling Korean family schemes to become employed by a wealthy household, setting off a darkly comic and increasingly dangerous chain of events about class and inequality.",
+        "verdict": "A masterwork — sharp, shocking, and impossible to forget.",
+        "rating": 9.5,
         "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks"
+          "Song Kang-ho",
+          "Lee Sun-kyun",
+          "Cho Yeo-jeong",
+          "Choi Woo-shik",
+          "Park So-dam"
         ]
       },
-      "author": "Ari Cohen",
+      "author": "Gül Erçolak",
+      "date": "June 10, 2026",
+      "excerpt": "Parasite is a masterfully crafted film that blends social commentary, suspense, drama, and dark comedy into a story that feels both uniquely Korean and universally relevant.",
+      "body": "Parasite is a masterfully crafted film that blends social commentary, suspense, drama, and dark comedy into a story that feels both uniquely Korean and universally relevant. At its core, the film explores class inequality and the invisible barriers that separate different social groups, presenting these themes through a narrative that is both entertaining and deeply unsettling.\n\nOne of the film's greatest achievements is its storytelling. Director Bong Joon-ho gradually builds tension through seemingly ordinary situations, allowing the story to evolve in unexpected ways. The narrative constantly shifts between humor and suspense, keeping the audience engaged while revealing deeper truths about power, privilege, and social mobility.\n\nThe contrast between the two families is portrayed with remarkable subtlety. Rather than presenting simple heroes and villains, the film depicts individuals who are all trying to improve their circumstances. This complexity encourages viewers to reflect on the systems that create inequality rather than placing blame solely on specific characters. The result is a story that feels realistic and emotionally impactful.\n\nVisually, Parasite is equally impressive. The architecture of the Park family's home plays a crucial role in the storytelling, symbolizing social hierarchy through space, design, and physical elevation. Every frame appears carefully constructed, with visual details reinforcing the film's central themes without becoming overly obvious.\n\nWhat makes Parasite particularly powerful is its ability to remain accessible while delivering a sharp critique of modern society. The film raises difficult questions about wealth, opportunity, and class divisions, yet it never feels like a lecture. Instead, these ideas emerge naturally through the characters' actions and choices.\n\nOverall, Parasite is not only an outstanding thriller but also one of the most significant social dramas of recent years. Its intelligent screenplay, outstanding performances, and thought-provoking themes create a film that continues to resonate long after the final scene.",
+      "pros": [
+        "Masterful blend of genre — comedy, thriller, and drama",
+        "Visually precise storytelling with symbolic architecture",
+        "Complex characters with no simple heroes or villains"
+      ],
+      "cons": [
+        "The tonal shift in the third act may be jarring for some viewers",
+        "Deliberately ambiguous ending may frustrate audiences seeking resolution"
+      ]
+    },
+    {
+      "movie": {
+        "slug": "world-war-z",
+        "title": "World War Z",
+        "director": "Marc Forster",
+        "year": 2013,
+        "runtime": "1h 56m",
+        "genres": ["Action", "Thriller", "Horror"],
+        "poster": "/uploads/world-warz-cover.jpg",
+        "backdrop": "/uploads/world-warz-hero.jpg",
+        "synopsis": "A former UN investigator races against time to stop a zombie pandemic threatening to destroy humanity, travelling across the globe to find a solution.",
+        "verdict": "A globe-trotting zombie thriller that trades scares for scope.",
+        "rating": 7.0,
+        "cast": [
+          "Brad Pitt",
+          "Mireille Enos",
+          "Daniella Kertesz",
+          "James Badge Dale",
+          "Matthew Fox"
+        ]
+      },
+      "author": "Gül Erçolak",
       "date": "June 8, 2026",
-      "excerpt": "A slow burn that rewards your attention. After the Tide turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "After the Tide understands that spectacle only matters when it reveals character. Director Nina Calder builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "excerpt": "World War Z stands out from traditional zombie movies by approaching its apocalyptic scenario through a global and realistic perspective.",
+      "body": "World War Z stands out from traditional zombie movies by approaching its apocalyptic scenario through a global and realistic perspective. Instead of focusing solely on survival, the film examines how societies, governments, and individuals react when faced with a rapidly spreading crisis. This broader scope gives the story a sense of urgency and relevance that extends beyond the conventions of the zombie genre.\n\nOne of the film's greatest strengths is its pacing. The narrative moves quickly across different countries and cultures, creating the impression that the outbreak is truly a worldwide emergency. Each location introduces new challenges and perspectives, keeping the audience engaged while reinforcing the scale of the disaster.\n\nThe zombies themselves are presented in a unique way. Their speed, aggression, and collective behavior transform them into a force of nature rather than traditional horror creatures. This approach increases the tension and creates several memorable action sequences that rely more on suspense than gore.\n\nBeyond its action elements, the film raises interesting questions about preparedness, leadership, and human resilience. Governments struggle to respond, institutions collapse under pressure, and survival often depends on cooperation and quick decision-making. These themes make the film feel surprisingly relevant in an era shaped by global health crises and international uncertainty.\n\nWhile some character development is sacrificed in favor of maintaining momentum, the film succeeds in delivering a gripping and entertaining experience. The focus remains on the larger crisis rather than individual stories, which may leave some emotional arcs feeling underdeveloped. Nevertheless, the film's ambitious scale and relentless energy help distinguish it from many other entries in the genre.\n\nOverall, World War Z is more than a typical zombie blockbuster. It combines large-scale action with themes of global vulnerability and collective survival, offering a fast-paced and thought-provoking take on the apocalypse.",
       "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
+        "Global scope gives the outbreak genuine urgency",
+        "Unique zombie behavior creates fresh tension",
+        "Taut pacing keeps the film moving relentlessly"
       ],
       "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
+        "Character development is thin in favour of spectacle",
+        "The quieter, claustrophobic third act feels tonally disconnected"
       ]
     },
     {
       "movie": {
-        "slug": "red-horizon",
-        "director": "Theo March",
-        "poster": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Adventure",
-          "Sci-Fi"
-        ],
-        "synopsis": "A rescue pilot crosses a forbidden desert where the horizon moves every night.",
-        "backdrop": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1800&q=85",
-        "title": "Red Horizon",
-        "runtime": "2h 25m",
-        "verdict": "A precise, atmospheric triumph.",
-        "year": 2025,
-        "rating": 8.5,
+        "slug": "alice-through-the-looking-glass",
+        "title": "Alice Through the Looking Glass",
+        "director": "James Bobin",
+        "year": 2016,
+        "runtime": "1h 53m",
+        "genres": ["Fantasy", "Adventure", "Family"],
+        "poster": "/uploads/alice-in-wonderland-cover.jpg",
+        "backdrop": "/uploads/alice-in-wonderland-hero.webp",
+        "synopsis": "Alice returns to the magical world of Underland, where she must travel through time to save the Mad Hatter and prevent a catastrophic event from destroying Wonderland.",
+        "verdict": "A visually dazzling adventure that balances whimsy with heart.",
+        "rating": 7.2,
         "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks",
-          "Tomas Vale"
+          "Mia Wasikowska",
+          "Johnny Depp",
+          "Helena Bonham Carter",
+          "Anne Hathaway",
+          "Rhys Ifans"
         ]
       },
-      "author": "Nora Singh",
+      "author": "Gül Erçolak",
       "date": "June 7, 2026",
-      "excerpt": "A precise, atmospheric triumph. Red Horizon turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "Red Horizon understands that spectacle only matters when it reveals character. Director Theo March builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "excerpt": "Alice Through the Looking Glass expands the world of Wonderland with a visually rich and imaginative adventure that places the concept of time at the center of its story.",
+      "body": "Alice Through the Looking Glass expands the world of Wonderland with a visually rich and imaginative adventure that places the concept of time at the center of its story. Rather than focusing only on fantasy and spectacle, the film explores themes such as regret, forgiveness, family relationships, and the desire to change the past. These themes give the story an emotional layer that goes beyond its colorful visuals.\n\nOne of the film's strongest aspects is its production design. The vibrant landscapes, elaborate costumes, and creative visual effects successfully recreate the magical atmosphere that audiences expect from Wonderland. Every scene is filled with detail, making the film an engaging visual experience from beginning to end.\n\nThe narrative places greater emphasis on the characters' personal histories, particularly the relationship between the Red Queen and the White Queen. By revealing the origins of their conflict, the film attempts to add depth and emotional complexity to characters who were previously defined mainly by their eccentric personalities. Alice also remains a strong central figure, representing curiosity, independence, and determination in a world driven by rules and expectations.\n\nHowever, the film occasionally struggles to balance its emotional ambitions with its visual spectacle. While the story introduces meaningful themes, some character arcs feel rushed, and certain emotional moments do not receive enough development to create a lasting impact. As a result, the visual elements often leave a stronger impression than the narrative itself.\n\nOverall, Alice Through the Looking Glass is an entertaining fantasy film that succeeds in delivering a powerful message about the value of time and the importance of accepting the past. Although it does not reach the same level of impact as its predecessor, it remains a visually captivating journey that combines imagination, emotion, and adventure in a uniquely whimsical way.",
       "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
+        "Stunning production design and visual creativity",
+        "Meaningful themes around time, regret, and forgiveness",
+        "Strong central performance from Mia Wasikowska"
       ],
       "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
+        "Emotional moments feel rushed and underdeveloped",
+        "Visual spectacle overshadows narrative depth"
       ]
     },
     {
       "movie": {
-        "slug": "the-orchard",
-        "director": "Sofia Vale",
-        "poster": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Horror",
-          "Drama"
-        ],
-        "synopsis": "Three sisters inherit an orchard whose trees bloom only after dark.",
-        "backdrop": "https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1800&q=85",
-        "title": "The Orchard",
-        "runtime": "1h 47m",
-        "verdict": "Bold filmmaking with a human pulse.",
-        "year": 2024,
-        "rating": 8.3,
+        "slug": "corpse-bride",
+        "title": "Corpse Bride",
+        "director": "Tim Burton",
+        "year": 2005,
+        "runtime": "1h 17m",
+        "genres": ["Animation", "Fantasy", "Romance"],
+        "poster": "/uploads/corpse-bride-cover.jpg",
+        "backdrop": "/uploads/corpse-bride-hero.jpg",
+        "synopsis": "In a 19th-century European village, a shy young man accidentally marries a deceased woman while practising his wedding vows — and is whisked away to the Land of the Dead.",
+        "verdict": "Gothic, gorgeous, and genuinely moving — Burton at his most elegant.",
+        "rating": 8.2,
         "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks"
+          "Johnny Depp",
+          "Helena Bonham Carter",
+          "Emily Watson",
+          "Tracey Ullman",
+          "Paul Whitehouse"
         ]
       },
-      "author": "Maya Ellis",
+      "author": "Gül Erçolak",
       "date": "June 6, 2026",
-      "excerpt": "Bold filmmaking with a human pulse. The Orchard turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "The Orchard understands that spectacle only matters when it reveals character. Director Sofia Vale builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
+      "excerpt": "Corpse Bride is a beautifully crafted gothic fantasy that combines dark themes with warmth, humor, and emotional depth.",
+      "body": "Corpse Bride is a beautifully crafted gothic fantasy that combines dark themes with warmth, humor, and emotional depth. Directed by Tim Burton, the film transforms a story about death into an exploration of love, freedom, and personal choice. While its visual style immediately captures attention, the emotional sincerity at the heart of the story is what makes it memorable.\n\nOne of the film's most striking qualities is its visual design. The contrast between the gloomy, restrictive world of the living and the colorful, energetic world of the dead creates a fascinating reversal of expectations. The living characters often appear trapped by social rules and obligations, while the dead are portrayed as expressive, lively, and free. This creative approach gives the film a unique identity within the animated fantasy genre.\n\nThe story also explores the tension between duty and genuine emotion. Victor's journey is driven by uncertainty and fear, while Emily, the Corpse Bride, emerges as one of the film's most sympathetic and emotionally complex characters. Her longing for love and acceptance gives the story an emotional weight that extends beyond its fairy-tale premise.\n\nMusic plays an important role in shaping the film's atmosphere. The score enhances both the whimsical and melancholic moments, helping to balance the darker elements of the story with a sense of charm and wonder. Combined with the detailed stop-motion animation, the music contributes to a world that feels both magical and emotionally authentic.\n\nWhat makes Corpse Bride particularly effective is its ability to address themes such as loss, heartbreak, and sacrifice without becoming overly sentimental. The film maintains a light touch while still delivering meaningful emotional moments, allowing its message to resonate with audiences of different ages.\n\nOverall, Corpse Bride is more than a visually impressive animated film. Through its distinctive artistic style, memorable characters, and heartfelt storytelling, it offers a thoughtful reflection on love, identity, and the importance of choosing one's own path.",
       "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
+        "Inventive visual contrast between the living and dead worlds",
+        "Emily is a genuinely sympathetic and complex character",
+        "Score and stop-motion animation work in perfect harmony"
       ],
       "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
-      ]
-    },
-    {
-      "movie": {
-        "slug": "static-hearts",
-        "director": "Jamie Roux",
-        "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Romance",
-          "Comedy"
-        ],
-        "synopsis": "A radio producer and a charming caller fall in love without ever learning each other's names.",
-        "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
-        "title": "Static Hearts",
-        "runtime": "1h 42m",
-        "verdict": "A slow burn that rewards your attention.",
-        "year": 2026,
-        "rating": 8.1,
-        "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks",
-          "Tomas Vale"
-        ]
-      },
-      "author": "Jon Bell",
-      "date": "June 5, 2026",
-      "excerpt": "A slow burn that rewards your attention. Static Hearts turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "Static Hearts understands that spectacle only matters when it reveals character. Director Jamie Roux builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
-      "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
-      ],
-      "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
-      ]
-    },
-    {
-      "movie": {
-        "slug": "north-of-silence",
-        "director": "Anton Reyes",
-        "poster": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Thriller",
-          "Drama"
-        ],
-        "synopsis": "A journalist follows a missing-person trail into a town that has removed itself from every map.",
-        "backdrop": "https://images.unsplash.com/photo-1483347756197-71ef80e95f73?auto=format&fit=crop&w=1800&q=85",
-        "title": "North of Silence",
-        "runtime": "2h 11m",
-        "verdict": "A precise, atmospheric triumph.",
-        "year": 2025,
-        "rating": 8.8,
-        "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks"
-        ]
-      },
-      "author": "Ari Cohen",
-      "date": "June 4, 2026",
-      "excerpt": "A precise, atmospheric triumph. North of Silence turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "North of Silence understands that spectacle only matters when it reveals character. Director Anton Reyes builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
-      "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
-      ],
-      "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
-      ]
-    },
-    {
-      "movie": {
-        "slug": "the-second-take",
-        "director": "Lena Hart",
-        "poster": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Comedy",
-          "Drama"
-        ],
-        "synopsis": "A forgotten actor gets one final audition for the role based on his own life.",
-        "backdrop": "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=1800&q=85",
-        "title": "The Second Take",
-        "runtime": "1h 58m",
-        "verdict": "Bold filmmaking with a human pulse.",
-        "year": 2024,
-        "rating": 7.9,
-        "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks",
-          "Tomas Vale"
-        ]
-      },
-      "author": "Nora Singh",
-      "date": "June 3, 2026",
-      "excerpt": "Bold filmmaking with a human pulse. The Second Take turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "The Second Take understands that spectacle only matters when it reveals character. Director Lena Hart builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
-      "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
-      ],
-      "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
-      ]
-    },
-    {
-      "movie": {
-        "slug": "glass-cities",
-        "director": "Kiran Sol",
-        "poster": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Sci-Fi",
-          "Thriller"
-        ],
-        "synopsis": "In a city where memories are public records, an archivist discovers a day that belongs to no one.",
-        "backdrop": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1800&q=85",
-        "title": "Glass Cities",
-        "runtime": "2h 07m",
-        "verdict": "A slow burn that rewards your attention.",
-        "year": 2026,
-        "rating": 9,
-        "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks"
-        ]
-      },
-      "author": "Maya Ellis",
-      "date": "June 2, 2026",
-      "excerpt": "A slow burn that rewards your attention. Glass Cities turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "Glass Cities understands that spectacle only matters when it reveals character. Director Kiran Sol builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
-      "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
-      ],
-      "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
-      ]
-    },
-    {
-      "movie": {
-        "slug": "paper-moons",
-        "director": "Ava Mire",
-        "poster": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=700&q=85",
-        "genres": [
-          "Drama",
-          "Adventure"
-        ],
-        "synopsis": "A teenage cartographer and her grandfather redraw a country one last time.",
-        "backdrop": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=1800&q=85",
-        "title": "Paper Moons",
-        "runtime": "1h 49m",
-        "verdict": "A precise, atmospheric triumph.",
-        "year": 2025,
-        "rating": 8.4,
-        "cast": [
-          "Lea Moreno",
-          "David Kaye",
-          "Imani Brooks",
-          "Tomas Vale"
-        ]
-      },
-      "author": "Jon Bell",
-      "date": "June 1, 2026",
-      "excerpt": "A precise, atmospheric triumph. Paper Moons turns its ambitious premise into a richly observed story about the choices that define us.",
-      "body": "Paper Moons understands that spectacle only matters when it reveals character. Director Ava Mire builds the film with unusual patience, allowing silence, framing, and small gestures to carry as much weight as its largest moments. The result feels both immediately accessible and worthy of a second viewing.",
-      "pros": [
-        "Confident visual language",
-        "Excellent ensemble performances",
-        "A memorable final act"
-      ],
-      "cons": [
-        "The middle act occasionally drifts",
-        "Some ideas deserve more room"
+        "At 77 minutes, the story feels slightly rushed",
+        "Victor is a passive protagonist for much of the film"
       ]
     }
   ],
@@ -883,12 +350,15 @@
   ],
   "categories": [
     "Action",
-    "Drama",
-    "Horror",
-    "Thriller",
+    "Adventure",
+    "Animation",
     "Comedy",
-    "Sci-Fi",
+    "Drama",
+    "Fantasy",
+    "Horror",
+    "Mystery",
     "Romance",
-    "Animation"
+    "Thriller",
+    "Family"
   ]
 }

@@ -4,7 +4,7 @@ import { Menu, Search, X } from "lucide-react";
 import { useState } from "react";
 import { LanguageSwitch, T, useLanguage } from "@/components/language";
 
-const links=[["Reviews","İncelemeler","/reviews"],["Categories","Kategoriler","/categories"],["Journal","Dergi","/blog"],["About","Hakkımızda","/about"]];
+const links=[["Reviews","İncelemeler","/reviews"],["Categories","Kategoriler","/categories"],["Blog","Blog","/blog"]];
 export function Navbar(){
  const [open,setOpen]=useState(false); const [search,setSearch]=useState(false);
  const {language}=useLanguage();
