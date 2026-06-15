@@ -5,7 +5,7 @@ import { useLanguage } from "@/components/language";
 
 export function ArticleBody({ en, tr }: { en: string; tr: string }) {
   const { language } = useLanguage();
-  const body = language === "tr" ? tr : en;
+  const body = language === "tr" ? en : en;
 
   return (
     <div className="prose-roseflix">
@@ -17,19 +17,18 @@ export function ArticleBody({ en, tr }: { en: string; tr: string }) {
           strong: ({ children }) => <strong className="font-bold text-white">{children}</strong>,
           ul: ({ children }) => <ul className="mt-4 space-y-2 pl-5">{children}</ul>,
           li: ({ children }) => <li className="text-sm leading-7 text-white/75 list-disc">{children}</li>,
-          img: ({ src, alt }) => src ? (
+          img: ({ src }) => src ? (
             <span className="my-8 block">
-              <span className="relative block overflow-hidden rounded-sm">
+              <span className="relative block overflow-hidden rounded-sm leading-[0]">
                 <Image
                   src={src}
-                  alt={alt || ""}
+                  alt=""
                   width={700}
                   height={400}
                   className="w-full object-cover"
                 />
                 <span className="absolute inset-0" style={{background:"linear-gradient(to bottom, rgba(18,18,18,0.10) 0%, rgba(18,18,18,0.32) 100%)"}}/>
               </span>
-              {alt && <span className="mt-2 block text-center text-xs text-muted">{alt}</span>}
             </span>
           ) : null,
         }}

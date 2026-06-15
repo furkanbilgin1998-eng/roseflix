@@ -28,16 +28,13 @@ export default async function Article({params}:{params:Promise<{slug:string}>}){
           </div>
         </div>
       </header>
-      <div className="container-main grid py-14 lg:grid-cols-[1fr_2fr_1fr]">
-        <div className="hidden lg:block">
-          <p className="eyebrow"><T en="Filed under" tr="Kategori"/></p>
-          <p className="mt-2 text-sm text-muted">{a.category}</p>
-        </div>
+      <div className="container-main py-14 lg:max-w-3xl lg:mx-auto">
         <ArticleBody
           en={a.bodyEn||"Great films do more than hold our attention. They change the temperature of a room, then follow us into the night.\n\nThis year's most compelling work shares a willingness to take its time. Rankings are useful; conversation is better."}
           tr={a.bodyTr||"Harika filmler yalnızca dikkatimizi çekmez. Odanın atmosferini değiştirir ve gece boyunca bizimle gelir.\n\nBu yılın en etkileyici işleri zaman ayırmaktan çekinmiyor. Sıralamalar faydalı; sohbet daha iyi."}
         />
       </div>
+
     </article>
     <section className="container-main pb-12"><div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">{movies.slice(0,5).map(m=><MovieCard key={m.slug} movie={m}/>)}</div></section>
     <Newsletter/>
