@@ -17,7 +17,7 @@ export function ArticleBody({ en, tr }: { en: string; tr: string }) {
           strong: ({ children }) => <strong className="font-bold text-white">{children}</strong>,
           ul: ({ children }) => <ul className="mt-4 space-y-2 pl-5">{children}</ul>,
           li: ({ children }) => <li className="text-sm leading-7 text-white/75 list-disc">{children}</li>,
-          img: ({ src }) => src ? (
+          img: ({ src }) => src && typeof src === "string" ? (
             <span className="my-8 block">
               <span className="relative block overflow-hidden rounded-sm leading-[0]">
                 <Image
