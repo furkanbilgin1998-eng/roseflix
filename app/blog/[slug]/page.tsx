@@ -16,13 +16,18 @@ export default async function Article({params}:{params:Promise<{slug:string}>}){
   if(!a)notFound();
   return <>
     <article>
-      <header className="container-main py-16 text-center md:py-24">
-        <p className="eyebrow">{a.category} · {a.read} <T en="read" tr="okuma"/></p>
-        <h1 className="display mx-auto mt-5 max-w-4xl text-6xl font-semibold leading-[.9] md:text-8xl">{a.title}</h1>
-        <p className="mx-auto mt-6 max-w-xl text-sm leading-7 text-muted">{a.excerpt}</p>
-        <p className="mt-6 text-[10px] font-extrabold uppercase tracking-widest"><T en="By" tr="Yazan"/> Maya Ellis · June 8, 2026</p>
+      <header className="relative min-h-[68vh] overflow-hidden">
+        <Image src={a.image} alt="" fill priority className="object-cover opacity-60"/>
+        <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/50 to-black/20"/>
+        <div className="container-main relative flex min-h-[68vh] items-end pb-14 pt-24">
+          <div className="max-w-3xl">
+            <p className="eyebrow">{a.category} · {a.read} <T en="read" tr="okuma"/></p>
+            <h1 className="display mt-4 text-5xl font-semibold leading-[.92] md:text-7xl lg:text-8xl">{a.title}</h1>
+            <p className="mt-5 max-w-xl text-sm leading-7 text-white/70">{a.excerpt}</p>
+            <p className="mt-5 text-[10px] font-extrabold uppercase tracking-widest text-white/50"><T en="By" tr="Yazan"/> Gül Erçolak</p>
+          </div>
+        </div>
       </header>
-      <div className="relative aspect-[16/8] max-h-[680px]"><Image src={a.image} alt="" fill priority className="object-cover"/></div>
       <div className="container-main grid py-14 lg:grid-cols-[1fr_2fr_1fr]">
         <div className="hidden lg:block">
           <p className="eyebrow"><T en="Filed under" tr="Kategori"/></p>
