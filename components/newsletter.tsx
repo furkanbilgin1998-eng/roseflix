@@ -12,7 +12,7 @@ export function Newsletter() {
       <p className="mx-auto mt-4 max-w-xl text-sm leading-7 text-muted"><T en="A thoughtful weekly edit of new releases, hidden gems, and criticism worth reading. No noise, just cinema." tr="Yeni filmler, saklı cevherler ve okumaya değer eleştirilerden oluşan haftalık seçki. Gürültü yok, sadece sinema."/></p>
       {submitted ? (
         <p className="mx-auto mt-8 max-w-lg border border-white/10 bg-ink px-6 py-4 text-sm text-white/70">
-          <T en="The newsletter is coming soon — we'll let you know when it's ready." tr="Bülten yakında geliyor — hazır olduğunda sizi haberdar edeceğiz."/>
+          <T en="The newsletter is coming soon. We'll let you know when it's ready." tr="Bülten yakında geliyor. Hazır olduğunda sizi haberdar edeceğiz."/>
         </p>
       ) : (
         <form
