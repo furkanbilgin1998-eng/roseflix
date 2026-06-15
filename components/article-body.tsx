@@ -19,13 +19,16 @@ export function ArticleBody({ en, tr }: { en: string; tr: string }) {
           li: ({ children }) => <li className="text-sm leading-7 text-white/75 list-disc">{children}</li>,
           img: ({ src, alt }) => src ? (
             <span className="my-8 block">
-              <Image
-                src={src}
-                alt={alt || ""}
-                width={700}
-                height={400}
-                className="w-full rounded-sm object-cover"
-              />
+              <span className="relative block overflow-hidden rounded-sm">
+                <Image
+                  src={src}
+                  alt={alt || ""}
+                  width={700}
+                  height={400}
+                  className="w-full object-cover"
+                />
+                <span className="absolute inset-0" style={{background:"linear-gradient(to bottom, rgba(18,18,18,0.10) 0%, rgba(18,18,18,0.32) 100%)"}}/>
+              </span>
               {alt && <span className="mt-2 block text-center text-xs text-muted">{alt}</span>}
             </span>
           ) : null,
