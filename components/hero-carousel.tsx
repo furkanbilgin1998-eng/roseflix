@@ -16,7 +16,7 @@ export function HeroCarousel({slides}:{slides:HeroSlide[]}){
   return <section className="grain relative min-h-[82vh] overflow-hidden border-b border-white/10">
     {slides.map((item,index)=><Image key={item.id} src={item.image} alt="" fill priority={index===0} sizes="100vw" className={`object-cover transition-all duration-1000 ${index===active?"scale-100 opacity-65":"scale-105 opacity-0"}`}/>)}
     <div className="absolute inset-0 bg-gradient-to-t from-ink via-ink/20 to-ink/30"/><div className="absolute inset-0 bg-black/20"/>
-    <div className="container-main relative flex min-h-[88vh] items-center justify-center pb-32 pt-24 text-center md:min-h-[82vh] md:pb-20"><div key={slide.id} className="mx-auto max-w-4xl">
+    <div className="container-main relative flex min-h-[88vh] items-center justify-center pb-32 pt-24 text-center md:min-h-[82vh] md:pb-20"><div className="mx-auto max-w-4xl">
       <p className="eyebrow hero-title mb-5">{language==="tr"?slide.eyebrowTr:slide.eyebrowEn}</p>
       <h1 className="display hero-title text-6xl font-semibold leading-[.92] md:text-8xl lg:text-[7rem]">{language==="tr"?slide.titleTr:slide.titleEn}<br/><span className="font-medium text-blush">{language==="tr"?slide.accentTr:slide.accentEn}</span></h1>
       <p className="hero-copy mx-auto mt-6 max-w-xl text-sm leading-7 text-white/75 md:text-base">{language==="tr"?slide.descriptionTr:slide.descriptionEn}</p>
